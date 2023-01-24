@@ -2,8 +2,8 @@
 
 ## КОМАНДЫ ДЛЯ ЗАПУСКА КОНТЕЙНЕРА
 
-docker build . --tag=my_project
-docker run -p 80:6060 -e MY_ENV="stock_products" my_project
+1. docker build . --tag=my_project
+2. docker run -p 80:6060 -e MY_ENV="stock_products" my_project
 
 
 ## Техническая задача: реализовать CRUD-логику для продуктов и складов, используя Django Rest Framework.
