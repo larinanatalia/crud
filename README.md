@@ -1,5 +1,11 @@
 # Склады и товары
 
+## КОМАНДЫ ДЛЯ ЗАПУСКА КОНТЕЙНЕРА
+
+docker build . --tag=my_project
+docker run -p 80:6060 -e MY_ENV="stock_products" my_project
+
+
 ## Техническая задача: реализовать CRUD-логику для продуктов и складов, используя Django Rest Framework.
 
 **CRUD** – аббревиатура для Create-Read-Update-Delete. Ей обозначают логику для операций создания-чтения-обновления-удаления сущностей. Подробнее: https://ru.wikipedia.org/wiki/CRUD
